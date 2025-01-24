@@ -42,9 +42,9 @@ int main() {
 //Problem 5
     string input;
     int width = 50;
-    int location = width / 2;
+    int location = (width - input.length()) / 2;
     cin >> input;
-    cout << setw(location) << input << setw(location) << endl;
+    cout << setw(location) << input<< endl;
 
     return 0;
 }
